@@ -7,8 +7,11 @@ authors = [
     {name = "Richard Thomas", email = "richard.thomas@uq.edu.au"}
 ]
 readme = "README.md"
-requires-python = ">=3.9"
+requires-python = ">=3.12"
 
 [build-system]
 requires = ["poetry-core>=2.0.0,<3.0.0"]
 build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.dependencies]
+flask = "^3.1.3"
