@@ -7,7 +7,7 @@ authors = [
     {name = "Richard Thomas", email = "richard.thomas@uq.edu.au"}
 ]
 readme = "README.md"
-requires-python = ">=3.12"
+requires-python = ">=3.9"
 
 [build-system]
 requires = ["poetry-core>=2.0.0,<3.0.0"]
